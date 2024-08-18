@@ -115,7 +115,7 @@ By the above steps the mysql replica configurations are done.
 ### Deployment Steps without Docker:
 #### Clone the repository
 
-``` git clone https://github.com/SanthoshKumar-Ravi/bankingapplication.git ```
+``` git clone https://github.com/SanthoshKumar-Ravi/primary-replica-PoC.git ```
 
 #### Go the folder
 
@@ -123,10 +123,10 @@ By the above steps the mysql replica configurations are done.
 
 
 #### build the application
-``` gradlew build ```
+``` maven clean install ```
 
 #### run the application
-``` java -jar accountmanagement-0.0.1.jar ```
+``` java -jar read-replica-poc-0.0.1.jar ```
 
 
 ### Commands to create user in mysql
