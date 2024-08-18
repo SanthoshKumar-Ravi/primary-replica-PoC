@@ -43,19 +43,19 @@ enter the root password.
 ALTER USER 'syncuser'@'%' IDENTIFIED WITH 'mysql_native_password' BY 'password';
 ```
 
-#### 3. grant privileges for replication slave
+#### 4. grant privileges for replication slave
 
 ```shell
 GRANT REPLICATION SLAVE ON *.* TO 'syncuser'@'%';
 ```
 
-#### 4. Flush privileges:
+#### 5. Flush privileges:
 
 ```shell
  FLUSH PRIVILEGES;
 ```
 
-#### 5. check master status:
+#### 6. check master status:
 
 ```shell
  SHOW MASTER STATUS;
