@@ -1,17 +1,24 @@
 package com.poc.readreplica.api.model;
 
+import java.net.URI;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 
+import java.util.*;
 import jakarta.annotation.Generated;
 
 /**
  * Person
  */
 
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-08-18T11:14:56.476595+03:00[Asia/Riyadh]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2024-08-18T11:27:03.653348+03:00[Asia/Riyadh]")
 public class Person {
 
   @JsonProperty("id")

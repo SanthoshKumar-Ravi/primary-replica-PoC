@@ -15,7 +15,7 @@
     <description>read-replica-poc</description>
     <properties>
         <java.version>17</java.version>
-        <base.package>com.example.readreplicapoc.api</base.package>
+        <base.package>com.poc.readreplica.api</base.package>
     </properties>
 
     <dependencies>
