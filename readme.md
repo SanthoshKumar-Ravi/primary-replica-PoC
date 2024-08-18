@@ -6,7 +6,7 @@ We will be setting the environment in two steps,<br />
     1. database setup <br />
     2. Code setup
 
-### Steps to Setup database
+## Steps to Setup database
 
 #### Clone the repository
 
@@ -110,9 +110,8 @@ Confirm that column `Slave_IO_Running` and `Slave_SQL_Running` show as "Yes".
 By the above steps the mysql replica configurations are done.
 
 
-### Steps to Setup codebase
+## Steps to Setup codebase
 
-### Deployment Steps without Docker:
 #### Clone the repository
 
 ``` git clone https://github.com/SanthoshKumar-Ravi/primary-replica-PoC.git ```
