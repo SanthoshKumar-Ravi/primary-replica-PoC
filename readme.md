@@ -11,7 +11,7 @@ We will be setting the environment in two steps,<br />
 #### Clone the repository
 
 ```shell
-docker-compose -f docker/docker-compose.yaml up -d
+git clone https://github.com/SanthoshKumar-Ravi/primary-replica-PoC.git
    ```
 
 #### Run the docker-compose file
