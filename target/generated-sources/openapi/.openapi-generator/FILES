@@ -1,7 +1,0 @@
-.openapi-generator-ignore
-README.md
-pom.xml
-src/main/java/com/poc/readreplica/api/ApiUtil.java
-src/main/java/com/poc/readreplica/api/PersonApi.java
-src/main/java/com/poc/readreplica/api/model/Person.java
-src/main/java/com/poc/readreplica/api/model/PersonInput.java
