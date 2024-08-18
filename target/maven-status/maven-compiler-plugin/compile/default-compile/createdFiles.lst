@@ -1,0 +1,17 @@
+com/example/readreplicapoc/entity/Person.class
+com/example/readreplicapoc/service/PersonService.class
+com/example/readreplicapoc/models/PersonResponse.class
+com/example/readreplicapoc/mapper/PersonMapper.class
+com/example/readreplicapoc/models/SavePersonRequest.class
+com/example/readreplicapoc/api/PersonApi.class
+com/example/readreplicapoc/configuration/DatasourceConfiguration.class
+com/example/readreplicapoc/repository/PersonRepository.class
+com/example/readreplicapoc/controller/PersonController.class
+com/example/readreplicapoc/router/DataSourceRouter.class
+com/example/readreplicapoc/api/model/PersonInput.class
+com/example/readreplicapoc/api/ApiUtil.class
+com/example/readreplicapoc/api/model/Person.class
+com/example/readreplicapoc/interceptor/DataSourceRouteInterceptor.class
+com/example/readreplicapoc/ReadReplicaPocApplication.class
+com/example/readreplicapoc/models/FindAllPersonResponse.class
+com/example/readreplicapoc/router/DataSourceRouter$Route.class
